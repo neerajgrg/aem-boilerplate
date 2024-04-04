@@ -3,9 +3,6 @@
 # but that we use to develop the project template. This includes this
 # particular workflow file.
 on:
-  create:
-    branches:
-      - main
   workflow_dispatch:
 jobs:
   cleanup:
